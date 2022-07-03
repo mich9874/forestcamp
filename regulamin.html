@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Forest Camp</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="/imgs/ikonka.jpg">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	
+	</head>
+	<body>
+		<div class="menu">
+			<ul>
+				<li class="item"><a class="link" href=index.html#about>O nas</a></li>
+				<li class="item"><a class="link" href=index.html#cennik>Ceniik</a></li>
+				<li class="item"><a class="link" href=index.html#galeria>Galeria</a></li>
+				<li class="item"><a class="link" href=index.html#kontakt>Kontakt</a></li>
+				<li class="item"><a class="link" href=index.html#regulamin>Regulamin</a></li>
+				<li class="item"><a class="link" href=index.html#dojazd>Dojazd</a></li>
+			</ul>
+			<nav class="nav">
+				<a href="index.html#index"><b><span id="txt1">FOREST CAMP</span></b></a>
+				<b><a href="index.html#kontakt"><span id="txt2">Kontakt</span></a></b>
+				<a href=""><img src="/imgs/instagram.png" alt="insta" class="inst"></a>
+				<a href="https://www.facebook.com/forestcampnyklewicz"><img src="/imgs/fb.png" alt="fb" class="fb"></a>
+
+				<div class="hamburger">
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+					<div class="line line3"></div>
+				</div>
+	
+			</nav>
+		</div>
+<br><br><br><br><br>
+		<section>
+                <center><h1>TU BEDZIE REGULAMIN</h1></center>
+		</section>
+		<footer class="footer">
+			<p></p>
+		</footer>
+		<script src="jquery.js"></script>
+		<script src="stickyfill.js"></script>
+		<script src="scirpt.js"></script>
+		<script>
+			$('.nav').Stickyfill();
+
+			$(function() {
+			  $('a[href*="#"]:not([href="#"])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').stop().animate({
+			          scrollTop: target.offset().top - 70
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
+	</body>
+</html>
