@@ -32,10 +32,10 @@ body {
 	overflow: hidden;
 }
 
-	.header h1 {
-		font-size: 72px;
-		padding-top: 50px;
-	}
+.header h1 {
+	font-size: 72px;
+	padding-top: 50px;
+}
 
 
 .nav {
@@ -151,10 +151,15 @@ a:hover {
 	margin: 0;
 	text-align: left;
 	top: 10px;
-	left: 475px;
+	left: 250px;
 	position: absolute;
 }
 
+#cennik {
+	background-image: url(/imgs/ikonka.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
 
 #txt1 {
 	position: absolute;
@@ -178,7 +183,25 @@ a:hover {
 	transition: .5s;
 }
 
+#txt22 {
+	position: absolute;
+	font-size: 20px;
+	width: 200px;
+	color: white;
+	border: 3px solid;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	transition: .5s;
+	left: 45%;
+}
+
 #txt2:hover {
+	background-color: white;
+	color: #326647;
+}
+
+#txt22:hover {
 	background-color: white;
 	color: #326647;
 }
@@ -268,9 +291,7 @@ a:hover {
 	  margin: 10px 0;
 	}
   }
-#galeria {
 
-}
 #galeria h1 {
 	font-size: 65px;
 	color: white;
@@ -288,15 +309,17 @@ a:hover {
     width: 94%;
     margin: 0 auto;
     padding: 10px;
+	opacity: 1;
 }
 .gallery-item {
     flex-basis: 32.7%;
     margin-bottom: 6px;
-    opacity: .85;
+    opacity: .95;
     cursor: pointer;
 }
 .gallery-item:hover {
-    opacity: 1;
+	opacity: 10;
+
 }
 .gallery-item img {
     width: 100%;
