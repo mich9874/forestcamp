@@ -161,3 +161,21 @@ a:hover {
 	padding: 5px;
 	background-color: white;
 }
+
+.gallery{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+	top: 100px;
+	position: relative;
+}
+.gallery img{
+    width: 500px;
+    height:auto;
+    transition: 0.5s;
+}
+.gallery img:hover{
+    filter: grayscale(10%);
+    transform: scale(1.02);
+}
