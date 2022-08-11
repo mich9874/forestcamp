@@ -20,7 +20,7 @@
 				<li class="item"><a class="link" href="#dojazd">Dojazd</a></li>
 			</ul>
 			<nav class="nav">
-				<a href="#index"><b><span id="txt1">FORESTCAMP</span></b></a>
+				<a href="#index"><b><span id="txt1">SPA&WKRA</span></b></a>
 				<b><a href="#kontakt"><span id="txt2">Kontakt</span></a></b>
 				<a href="https://www.facebook.com/forestcampnyklewicz"><img src="/imgs/fb.png" alt="fb" class="fb"></a>
 
@@ -35,9 +35,8 @@
 		<header class="header" id="index">
 			<div class="container">
 				<h1>FOREST CAMP</h1>
-				<h2>SPA&WKRA</h2> <br>
 				<p>Gorąca woda, unosząca się para wodna, gwieździste niebo, kolorowe światełka, a wszystko inne zostaje gdzieś daleko… to jest Twój czas… <br> Twój czas na zasłużony relaks</p>
-				<br><br><br><br><br><br><br><br><a href="#about"><span id="ik" class="material-symbols-outlined">
+				<a href="#about"><span id="ik" class="material-symbols-outlined">
 					keyboard_double_arrow_down
 					</span></a>
 			</div>
@@ -52,17 +51,14 @@
 					Jest to <b>MINI SPA</b> na rzeką Wkrą.  
 					Możecie cieszyć się wieczorami, lub porankami w gorącej saunie lub balii z nieziemskimi widokami i odetchnąć świeżym, wiejskim powietrzem. 
 					Mamy nadzieję, że nowe miejsce w Bieżanach przypadnie Wam do gustu.</p>
-
-				<p>Świeże powietrze? Szum wiatru? Zapach rzeki? Śpiew ptaków? … tak, dokładnie to, a nawet więcej usłyszysz relaksując się w naszej balii, saunie, czy nawet spacerując nad rzeką. 
-					 Nie czekaj, nie odkładaj siebie na jutro… spraw sobie przyjemność </p>
 			</div>
 		</section>
 		<section class="section" id="cennik">
 			<div class="container">
 				<h1>Cennik</h1>
 				<h2>Sauna</h2>
-				<p>200 zł w tym beczka do schłodzenia płatne dodatkowo 50zł (do 2 godzin)</p>
-				<h2>Balia (do 4 godzin, max pobyt do 22:00)</h2>
+				<p>200 zł (w tym beczka do schłodzenia)</p>
+				<h2>Balia</h2>
 				<p>300 zł</p>
 				<h2>Nocleg na polu namiotowym</h2>
 				<p>Pobyt 1 osoby- 20 zł/doba, dzieci do 3 roku życia bezpłatnie (doba trwa od 13.00-15.00) <br>
@@ -71,7 +67,7 @@
 				<p>1-2 osobowy-30zł/doba <br>3-4 osobowy-40zł/doba</p>
 				<h2>Polecamy również spływy kajakowe, trasami dostosowanymi do Państwa umiejętności oraz chęci, szczegóły na  <i><b><a href="https://www.facebook.com/AgroKajakBiezany">Agro-Kajak Bieżany</a></b></i></h2>
 			</div>
-			</section>
+		</section>
 		<section class="section" id="galeria">
 			<div class="containerr">
 				<center><h1>Galeria</h1></center>
@@ -86,9 +82,9 @@
 						<img src="/zdj/8.jpg">
 					</div>
 				</div>
-				<br><br>
+				<br>
 				<b><a href="galeria.html"><span id="txt22">Zobacz więcej</span></a></b>
-				<br><br>
+				<br>
 			</div>
 		</section>
 		<section class="section" id="kontakt">
@@ -121,7 +117,7 @@
 			</div>
 		</section>
 		<footer class="footer">
-			<p>ForestCamp</p>
+			<p>MB</p>
 		</footer>
 		<script src="jquery.js"></script>
 		<script src="stickyfill.js"></script>
